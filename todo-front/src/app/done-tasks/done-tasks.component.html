@@ -1,0 +1,15 @@
+<div class="list-container">
+
+    <table>
+        @for(task of this.service.doneTasks(); track $index){
+            <tr>    
+            <td><p>{{ task.id }}</p></td>    
+            <td><p>{{ task.title }}</p></td>
+            <td><img src="./assets/img/bin.png" (click)="handleDelete(task)" /></td>
+            </tr>
+        }
+        
+    </table>
+</div>
+
+<p-toast />

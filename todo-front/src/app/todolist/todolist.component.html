@@ -1,0 +1,29 @@
+<div class="list-container">
+    
+        <p class="container-title">Just Do it</p>
+        <div class="input-search">
+            <input 
+                type="text" 
+                class="form-control" 
+                placeholder="Add a task..." 
+                name="query" 
+                [(ngModel)]="this.service.todo().title"
+                />
+            <button (click)="handleAdd()" class="btn btn-dark" style="padding: 10px 15px;">Add</button>
+        </div>
+    <table>
+        
+        @for(task of this.service.todos(); track $index){
+            <tr>    
+            <td><p>{{ task.id }}</p></td>    
+            <td><p>{{ task.title }}</p></td>
+            <td><img src="./assets/img/done.png" (click)="handleDoneUpdate(task)" />
+                <img src="./assets/img/bin.png" (click)="handleDelete(task)" />
+            </td>
+            </tr>
+        }
+        
+    </table>
+</div>
+
+<p-toast />

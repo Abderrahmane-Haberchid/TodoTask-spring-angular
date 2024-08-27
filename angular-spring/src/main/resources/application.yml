@@ -1,0 +1,14 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql//localhost:5432/todolist_db
+#    username: postgres
+#    password: yousra16022023
+#    driver-class-name: com.postgresql.jdbc.Driver
+#  jpa:
+#    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#    hibernate:
+#      ddl-auto: create-drop
+

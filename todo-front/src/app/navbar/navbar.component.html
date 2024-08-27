@@ -1,0 +1,10 @@
+<div class="header-search">
+    <ul>
+     <li>
+        <a routerLink="/home" routerLinkActive="activeRoute">({{ this.service.todos().length }}) Actif Tasks</a>
+    </li>
+     <li>
+        <a routerLink="/done" routerLinkActive="activeRoute">({{ this.service.doneTasks().length }}) Completed Tasks</a>
+    </li>
+    </ul> 
+</div>

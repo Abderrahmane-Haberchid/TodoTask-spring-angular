@@ -1,0 +1,23 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--body-color);
+    color: var(--text-color);
+}
+
+:root{
+    --body-color: #18191A;    
+    --sidebar-color: #242526;
+    --primary-color: #3A3B3C;
+    --primary-dark-color: linear-gradient(to right,#695CFE, #3528c6);
+    --primary-dark-hover-color: linear-gradient(to right,#3528c6, #695CFE);
+    --secondary-color: #3A3B3C;
+    --toggle-color: #FFF;
+    --text-color: #CCC;
+}

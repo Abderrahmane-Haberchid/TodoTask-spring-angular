@@ -1,0 +1,22 @@
+.list-container{
+    margin-top: 40px;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+table{
+    width: 600px;
+}
+table tr td{
+    padding: 10px 20px;
+}
+table tr:hover {
+    border-radius: 15px;
+    background-color: var(--sidebar-color);
+}
