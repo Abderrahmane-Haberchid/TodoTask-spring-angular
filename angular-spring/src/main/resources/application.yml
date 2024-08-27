@@ -2,7 +2,7 @@
 #  datasource:
 #    url: jdbc:postgresql//localhost:5432/todolist_db
 #    username: postgres
-#    password: yousra16022023
+#    password: 
 #    driver-class-name: com.postgresql.jdbc.Driver
 #  jpa:
 #    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
